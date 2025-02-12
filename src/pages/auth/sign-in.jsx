@@ -23,7 +23,7 @@ export function SignIn() {
             </Typography>
             <Input
               size="lg"
-              placeholder="name@mail.com"
+              placeholder="mail id"
               className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
               labelProps={{
                 className: "before:content-none after:content-none",
@@ -35,7 +35,7 @@ export function SignIn() {
             <Input
               type="password"
               size="lg"
-              placeholder="********"
+              placeholder="Password"
               className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
               labelProps={{
                 className: "before:content-none after:content-none",
@@ -123,4 +123,4 @@ export function SignIn() {
   );
 }
 
-export default SignIn;
+export default SignIn; 
